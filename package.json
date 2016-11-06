@@ -1,0 +1,66 @@
+{
+    "author": "Harrison Leath",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pokemon",
+    "pebble": {
+        "displayName": "Pokemon Go",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Apple Background (RESIZE).png",
+                    "name": "IMAGE_BACKGROUND",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Side Logo.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bt-icon.png",
+                    "name": "IMAGE_BT_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/SWATRG__.TTF",
+                    "name": "FONT_PERFECT_DOS_40",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/SWATRG__.TTF",
+                    "name": "FONT_PERFECT_DOS_30",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/SWATRG__.TTF",
+                    "name": "FONT_PERFECT_DOS_23",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "e697f072-8e57-4955-9f7c-285704818ccd",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
